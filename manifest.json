@@ -1,21 +1,11 @@
 {
-	"format": 1,
-	"id": "minh.message-logger-file",
-	"name": "Message Logger (File)",
-	"description": "Keeps deleted messages and edit history, persists them to disk across restarts, and lists them in Settings.",
-	"author": "minh",
-	"icon": "ChatXIcon",
-	"version": "1.0.0",
-	"dependencies": {
-		"revenge.api": {
-			"version": ">=1.2.1 <2"
-		},
-		"discord": {
-			"version": ">=352.2"
-		}
-	},
-	"dist": {
-		"script": "index.js"
-	},
-	"main": "index.js"
+  "name": "Message Logger (File)",
+  "description": "Local archive of deleted and edited messages.",
+  "authors": [
+    {
+      "name": "Minh"
+    }
+  ],
+  "main": "vendetta.js",
+  "hash": "c4b480f3d190092df081836c85dfc94d33ce9c01bbe0a40d8f770a1b7732fc9b"
 }
